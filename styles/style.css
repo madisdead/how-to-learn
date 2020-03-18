@@ -39,13 +39,13 @@
 
 /* и элемента с модификатором вида ключ-значение */
 
-.logo_size {
+.logo {
   width: 183px;
   height: 32px;
+  position: absolute;
 }
 
 .logo_place_header {
-  position: absolute;
   top: 30px;
   left: 64px;
   z-index: 3;
@@ -64,6 +64,7 @@
 
 .header__subtitle {
   width: 388px;
+  margin-bottom: 0;
   font-size: 18px;
   line-height: 25px; 
   font-weight: normal;
@@ -110,15 +111,9 @@
   width: 175px;
 }
 
-.spacer {
-  width: 40px;
-}
-
 .two-columns__main-text {
   min-width: 784px;
   width: 80%;
-  
-  
 }
 
 .two-columns__span-accent {
@@ -168,17 +163,13 @@
   margin: auto;
 }
 
-.table__cell:nth-of-type(n+4){
-  margin-bottom: 0;
-}
-
-.table__cell_width_l {
+.table__cell {
   width: 250px;
   margin-bottom: 60px;
 }
 
-.table__cell_width_m {
-  width: 200px;
+.table__cell:nth-of-type(n+4){
+  margin-bottom: 0;
 }
 
 .table__heading {
@@ -262,8 +253,6 @@
   background-color: #1f1f1f;
 }
 
-
-
 .kaufman__triangle {
   z-index: -1;
   height: 877px;
@@ -288,6 +277,15 @@
 .table__cell_theme_dark {
   width: 200px;
   margin-top: 80px;
+  margin-bottom: 0;
+}
+
+.table__heading_theme_dark {
+  margin-bottom: 20px;
+}
+
+.table__text_theme_dark {
+  margin: 0;
 }
 
 .footer {
@@ -338,15 +336,16 @@
 }
 
 .footer__column-links {
+  margin-bottom: 5px;
+}
+
+.link {
   color: white;
   text-decoration: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  margin-bottom: 5px;
 }
-
-
 
 .footer__column-heading {
   line-height: 30px;
