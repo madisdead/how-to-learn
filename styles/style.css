@@ -168,13 +168,6 @@
   margin: auto;
 }
 
-.table__cell {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  
-}
-
 .table__cell:nth-of-type(n+4){
   margin-bottom: 0;
 }
@@ -193,11 +186,15 @@
   font-size: 24px;
   font-weight: 600;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .table__text {
-  
-  margin-bottom: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
 .feinman {
