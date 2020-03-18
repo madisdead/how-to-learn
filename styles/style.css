@@ -27,6 +27,7 @@
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+
 .header__square-pic {
   width: 568px;
   height: 568px;
@@ -73,13 +74,10 @@
   left: 64px; 
 }
 
-
-
 .header__link {
   text-decoration: none;
   color: #2F80ED;
 }
-
 
 .header__main-illustration {
   width: 765px;
