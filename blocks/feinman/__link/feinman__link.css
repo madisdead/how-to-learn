@@ -10,3 +10,8 @@
   align-self: flex-end;
   right: 48px;
 }
+
+.feinman__link:hover {
+  opacity: .6;
+  transition: opacity 1s ease-in-out;
+}

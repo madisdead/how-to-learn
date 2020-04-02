@@ -1,6 +1,5 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/list.css);
-@import url(../page/page.css);
+@import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/two-columns/two-columns.css);
@@ -18,4 +17,3 @@
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/logo/logo.css);
-@import url(../vendor/link.css)

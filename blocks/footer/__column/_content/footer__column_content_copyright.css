@@ -2,6 +2,6 @@
   display: flex;
   width: 50%;
   flex-direction: column;
+  justify-content: space-between;
   min-height: 350px;
-  position: relative;
 }
