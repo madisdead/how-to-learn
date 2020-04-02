@@ -1,0 +1,16 @@
+@import url(./__image/feinman__image.css);
+@import url(./__title/feinman__title.css);
+@import url(./__subtitle/feinman__subtitle.css);
+@import url(./__link/feinman__link.css);
+
+.feinman {
+  margin-bottom: 0;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  /*В макете указана высота блока в 790px. Высота картинки - 637px, 
+  а отступ от верхней границы - 100px, значит строку заголовка остается 53px, при высоте строки в 138px(120*1.15)*/
+  /* height: 790px; */
+  height: 890px;
+  background-color: #f2f2f2;
+}
